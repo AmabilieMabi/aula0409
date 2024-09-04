@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  
 @RestController
 @RequestMapping
-public class TesteControler {
+public class TesteController {
  
     private  String[] f = {"Maçã", "Banana", "Morango"};
     @GetMapping("/frutas")
